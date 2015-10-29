@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- JQUERY -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- STYLESHEET-->
+	<link rel="stylesheet" type="text/css" href="synth.css">
+	 <!-- BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- JAVASCRIPT -->
+	<script src="synth.js"></script>
+ <title>Kids Synth</title>
+</head>
+
+<body>
+<div class="row">
+ <div class="col-xs-5 col-md-3" id="firstCol">
+	<div class="col-xs-6 col-md-4" id="speaker1"></div>
+	<br>
+	<div class="col-xs-6 col-md-4" id="speaker2"></div>
+	<br>
+	<div class="col-xs-6 col-md-4" id="speaker3"></div>
+ </div>
+	<div class="col-xs-8 col-md-6" id="secondCol">
+	<div id="title">
+		<p> KIDSYNTH </p>
+	</div>
+	  <div id="sound_type" >
+		<input type="submit" class="myclass" id="cow" value="" onclick="darken();">
+		<input type="submit" class="myclass" id="chicken" value="" onclick="darkenchick();">
+		<input type="submit" class="myclass" id="pig" value="" onclick="darkenpig();">
+		<input type="submit" class="myclass" id="cat" value="" onclick="darkencat();">
+		<input type="submit" class="myclass" id="dog" value="" onclick="darkendog();">
+		<input type="submit" class="myclass" id="car" value="" onclick="darkencar();">
+	  </div> 
+	  <! -- END OF SOUND_TYPE -->
+  <div class="processors">
+    <div class="processor1">
+      <input type="radio" name="p1" value="on">On
+      <input type="radio" name="p1" value="on">Off
+      <select>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select></div>
+    <div class="processor2"><input type="radio" name="p2" value="on">On
+      <input type="radio" name="p2" value="on">Off
+      <select>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select></div>
+    <div class="processor3"><input type="radio" name="p3" value="on">On
+      <input type="radio" name="p3" value="on">Off
+      <select>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select></div>
+  </div>
+  <div class="keys">
+    <div class="key1">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+    </div>
+		<div class="key2"></div>
+		<div class="key3"></div>
+	</div>
+	</div>
+	 <div class="col-xs-5 col-md-3" id="thirdCol">
+	<div class="col-xs-6 col-md-4" id="speaker1"></div>
+	<br>
+	<div class="col-xs-6 col-md-4" id="speaker2"></div>
+	<br>
+	<div class="col-xs-6 col-md-4" id="speaker3"></div>
+ </div>
+</body>
+</html>
